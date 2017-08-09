@@ -1,0 +1,56 @@
+<nav class="navbar navbar-default" ng-controller="NavController">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#/">Schedule App</a>
+    </div>
+    <!-- search -->
+    <div class="col-xs-6 searchBox" ng-show="isLoggedIn">
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+        <input type="text" class="form-control" placeholder="Search for..." ng-model="searchText.searchTerm">
+      </div>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li ng-show="!isLoggedIn"><a ng-href="#!/login">Login</a></li>
+        <li ng-show="isLoggedIn"><a ng-href="#!/todos/new">Find Jobs</a></li>
+        <li ng-show="isLoggedIn"><a ng-href="#!/todos/view">All Items</a></li>
+        <li ng-show="isLoggedIn"><a ng-href="#!/logout" ng-click="logout()">Logout</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="page-header text-center">
+    <h1>Schedule City</h1>
+  </div>
+
+  <!-- were doing one day with 1 time slot for simplicity -->
+  <!-- we'll use angular's ng-repeat in a bit to get the other days and times -->
+  <div class="row times">
+
+    <div class="col-xs-4 text-center">
+
+      <h2>Monday</h2>
+
+      <div class="time-slot">
+        <input type="checkbox" id="monday-time">
+        <label for="monday-time">9:00am</label>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="text-center">
+    <a href="#" class="btn btn-primary">Reset</a>
+  </p>
+
+</div>

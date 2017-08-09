@@ -1,0 +1,86 @@
+{
+"Jobs":[
+{
+
+        "title": "Set Production Assistants",
+        "id": "1",
+        "pay": "$175 @ day",
+        "description": "Set PAs perform the widest variety of duties. They work for the assistant directors, relaying information from the director to each department. Other set PA tasks include escorting actors to and from their trailers, assisting with crowd control, locking up locations, managing extras, passing out scripts and schedules, collecting paperwork, delivering film to various locations and helping move equipment."
+
+
+    },
+{
+        "title": "Camera Assistants",
+        "id": "2",
+        "pay": "$200 @ day",
+        "description": "Camera assistants are members of technical teams that produce feature films, television programs, and Internet videos. These professionals prepare the equipment that camera operators use to shoot scenes or images. Being a camera assistant is a good way to improve work skills and gain practical experience in preparation for a career as a camera operator. Some postsecondary training is generally required, though a bachelor's degree is recommended for those who want to advance."
+
+
+    },
+{
+        "title": "First Assistant Director",
+        "id": "3",
+        "pay": "$250 @ day",
+        "description": "The first assistant director (1st AD) assists the production manager and director. The ultimate aim of any 1st AD is to ensure the film comes in on schedule while maintaining at working environment in which the director, principal artists (actors) and crew can be focused on their work. They oversee day-to-day management of the cast and crew scheduling, equipment, script, and set. A 1st AD may also be responsible for directing background action for major shots or the entirety of relatively minor shots, at the director's discretion."
+
+
+    },
+{
+        "title": "Location Manger",
+        "id": "4",
+        "pay": "$300 @ day",
+        "description": "Oversees the locations department and its staff, typically reporting directly to the production manager and/or assistant director (or even director and/or executive producer). Location manager is responsible for final clearing (or guaranteeing permission to use) a location for filming and must often assist production and finance departments in maintaining budget management regarding actual location/permit fees as well as labor costs to production for himself and the locations department at large."
+
+
+    },
+{
+        "title": "Location Scout",
+        "id": "5",
+        "pay": "$200 @ day",
+        "description": "Does much of the actual research, footwork and photography to document location possibilities. Often the location manager will do some scouting himself, as well as the assistant location manager."
+
+
+    },
+
+{
+        "title": "Location Assistant",
+        "id": "6",
+        "pay": "$200 @ day",
+        "description": "Hired by the location manager to be on-set before, during, and after the filming process. General responsibilities include arriving first at the location to allow the set dressers into the set for preparation; maintaining the cleanliness of the location areas during filming; fielding complaints from neighbours; and ultimately, at the end of the filming, making sure it seems as though the film crew was never there. There is generally one to three assistants on a shoot at any given time."
+
+
+    },
+{
+        "title": "Editor",
+        "id": "7",
+        "pay": "$500",
+        "description": "The film editor is the person who assembles the various shots into a coherent film, with the help of the director. There are usually several assistant editors."
+
+
+    },
+{
+        "title": "Gaffer",
+        "id": "8",
+        "pay": "$300",
+        "description": "hThe gaffer is the head of the lighting department, responsible for the design of the lighting plan for a production. Sometimes the gaffer is credited as chief lighting technician."
+
+
+    },
+{
+        "title": "Boom Opertor",
+        "id": "9",
+        "pay": "$400",
+        "description": "The boom operator, first assistant sound or sound guy, is responsible for utilising microphones on the end of boom poles (lightweight telescopic poles made of aluminium, or more commonly, carbon fibre) held above actor's heads during a scene to capture dialogue. It is also their responsibility to relay information from the 'floor' back to the production sound mixer regarding upcoming shots, troublesome noises that the mixer will need to be made aware of if they can't be silenced, and for mounting radio microphones on actors."
+
+
+    },
+
+{
+        "title": "Director",
+        "id": "10",
+        "pay": "$1000 @ day",
+        "description": "The director is responsible for overseeing the creative aspects of a film, including controlling the content and flow of the film's plot, directing the performances of actors, organizing and selecting the locations in which the film will be shot, and managing technical details such as the positioning of cameras, the use of lighting, and the timing and content of the film's soundtrack. Though directors wield a great deal of power, they are ultimately subordinate to the film's producer or producers. Some directors, especially more established ones, take on many of the roles of a producer, and the distinction between the two roles is sometimes blurred."
+
+
+    }
+]}
