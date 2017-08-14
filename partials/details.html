@@ -1,0 +1,9 @@
+<h1>Jobs</h1>
+
+<h2>Assigned To: {{selectedItem.assignedTo}}</h2>
+<h2>Date: {{selectedItem.Date}}</h2>
+<h2>Location: {{selectedItem.location}}</h2>
+<h2>Pay: {{selectedItem.Pay}}</h2>
+<h2>Schedule it ?: {{(schedule.isCompleted ? "yes" : "no")}}</h2>
+
+<button class="btn btn-info" ng-click="loadEditForm(selectedItem.id)">Edit Details</button>

@@ -10,6 +10,8 @@
 
   <!-- Remember to put the path in single quotes when using ng-include -->
 <h1>Welcome to Schedule App</h1>
+
+      <div ng-include='"partials/navbar.html"'></div>
       <div ng-view></div>
     </div>
   </div>
@@ -30,12 +32,15 @@
   <!-- providers -->
   <script src="app/Values/fb-creds.js"></script>
   <script src="app/factories/user-factory.js"></script>
-
+  <script src="app/factories/schedule-factory.js"></script>
 
   <!-- controllers -->
   <script src="app/controller/nav-controller.js"></script>
   <script src="app/controller/schedule-controller.js"></script>
   <script src="app/controller/user-controller.js"></script>
+  <script src="app/controller/details-controller.js"></script>
+  <script src="app/controller/form-controller.js"></script>
+  <script src="app/controller/list-controller.js"></script>
 
  <!--  <! <script src="app/controllers/boardController.js"></script>
   <script src="app/controllers/userController.js"></script>

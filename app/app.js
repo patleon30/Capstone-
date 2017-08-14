@@ -40,11 +40,20 @@ let isAuth = (UserFactory) => {
           templateUrl:'Partials/home.html',
           controller: 'scheduleController'
         })
-
-        .when('/navbar', {
-        templateUrl: 'Partials/navbar.html',
-        controller:'navController'
+        .when('/details', {
+        templateUrl: 'Partials/details.html',
+        controller: 'detailsController'
         })
 
-        .otherwise('/');
+        .when('/form', {
+        templateUrl: 'Partials/form.html',
+        controller: 'formController'
+        })
+
+        .when('/list', {
+        templateUrl: 'Partials/list.html',
+        controller: 'listController'
+        })
+
+        .otherwise('/')
   });

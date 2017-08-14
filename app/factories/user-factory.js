@@ -34,10 +34,7 @@ let registerUser = (userObj) => {
     });
   };
 
-
-
-
-  let loginUser = (userObj) => {
+let loginUser = (userObj) => {
     return $q( (resolve, reject) => {
       firebase.auth().signInWithEmailAndPassword(userObj.email, userObj.password)
       .then( (user) => {

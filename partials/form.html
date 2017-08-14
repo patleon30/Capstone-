@@ -1,0 +1,28 @@
+<div class="col-xs-12">
+  <h1>{{formTitle}}</h1>
+  <div class="form-group">
+    <label>Job</label>
+    <input type="text" class="form-control" placeholder="Some important task" ng-model="todoItem.task"/>
+  </div>
+  <div class="form-group">
+    <label>Date</label>
+    <input type="text" class="form-control" placeholder="12/12/17" ng-model="todoItem.dueDate"/>
+  </div>
+  <div class="form-group">
+    <label>Pay</label>
+    <input type="text" class="form-control" placeholder="cohort 20" ng-model="todoItem.assignedTo"/>
+  </div>
+  <div class="form-group">
+    <label>Location</label>
+    <input type="text" class="form-control" placeholder="attic" ng-model="todoItem.location"/>
+  </div>
+  <div class="form-group">
+    <label>Book</label>
+    <input type="text" class="form-control" placeholder="low" ng-model="todoItem.urgency"/>
+  </div>
+  <div class="form-group">
+    <label></label>
+    <input type="text" class="form-control" placeholder="brush chipper, monkey chow, the one ring" ng-model="todoItem.dependencies"/>
+  </div>
+  <button class="btn btn-default" ng-click="saveTodoItem()">Submit</button>
+</div>

@@ -1,6 +1,6 @@
 'use strict'
                                                           // 'da heck is this?
-scheduleApp.controller("NavController", function($scope, $window, UserFactory) {
+scheduleApp.controller("navController", function($scope, $window, UserFactory) {
 
     $scope.isLoggedIn = false;
 

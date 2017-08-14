@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" ng-controller="NavController">
+<nav class="navbar navbar-default" ng-controller="navController">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -22,35 +22,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li ng-show="!isLoggedIn"><a ng-href="#!/login">Login</a></li>
-        <li ng-show="isLoggedIn"><a ng-href="#!/todos/new">Find Jobs</a></li>
-        <li ng-show="isLoggedIn"><a ng-href="#!/todos/view">All Items</a></li>
         <li ng-show="isLoggedIn"><a ng-href="#!/logout" ng-click="logout()">Logout</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <div class="page-header text-center">
-    <h1>Schedule City</h1>
+    <h1>Schedule App</h1>
   </div>
 
   <!-- were doing one day with 1 time slot for simplicity -->
   <!-- we'll use angular's ng-repeat in a bit to get the other days and times -->
-  <div class="row times">
-
-    <div class="col-xs-4 text-center">
-
-      <h2>Monday</h2>
-
-      <div class="time-slot">
-        <input type="checkbox" id="monday-time">
-        <label for="monday-time">9:00am</label>
-      </div>
-    </div>
-
-  </div>
-
-  <p class="text-center">
-    <a href="#" class="btn btn-primary">Reset</a>
-  </p>
-
-</div>
